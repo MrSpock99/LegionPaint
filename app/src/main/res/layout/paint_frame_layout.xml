@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/vUndo"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="start|top"
+        app:srcCompat="@drawable/ic_baseline_undo_24" />
+
+    <Button
+        android:id="@+id/vChangeColor"
+        android:layout_width="100dp"
+        android:text="Change color"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center" />
+
+    <ImageView
+        android:id="@+id/vRedo"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="end|top"
+        app:srcCompat="@drawable/ic_baseline_redo_24" />
+</FrameLayout>
