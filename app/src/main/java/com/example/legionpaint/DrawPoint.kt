@@ -1,9 +1,11 @@
 package com.example.legionpaint
 
-import android.graphics.Paint
+import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
 
+@Parcelize
 class DrawPoint(
     val x: Float,
     val y: Float,
-    val paint: Paint = Paint()
-)
+    val color: Int
+): Parcelable
